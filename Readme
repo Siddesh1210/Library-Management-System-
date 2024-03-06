@@ -1,0 +1,62 @@
+⭐Project Name : Library Management System (LMS)
+
+✅Overview:
+Welcome to the Library Management System! This project aims to provide a simple console-based interface for librarians to manage their library's collection of books. 
+With this system, librarians can perform various tasks such as adding, removing, updating, and searching for books in the library. 
+Additionally, the system allows for the storage of information about the library itself, including its name, address, and pin code.
+
+✅Features
+1.Add Book: Librarians can add new books to the library by providing details such as the book's title, author name, and price.
+2.Remove Book: Books can be removed from the library by specifying the book's name.
+3.Update Book: Librarians can update the details of existing books, including the book's name, author name, and price.
+4.Get Book: Librarians can search for a specific book in the library by its name and view its details.
+
+✅MVC Architecture
+The project follows the Model-View-Controller (MVC) architecture to ensure a clear separation of concerns and improve code organization.
+
+1.Model: Contains classes representing the data entities used in the system, such as the Library and Book classes.
+2.View: Handles user input and displays information to the user through the console interface.
+3.Controller: Acts as an intermediary between the view and the model, handling user requests and updating the model accordingly.
+
+✅Encapsulation in Book and Library Classes:
+Encapsulation is a key principle in object-oriented programming that involves bundling the data (attributes) and methods (functions) that operate on the data within a class. 
+It ensures controlled access to the class's attributes by restricting direct access and providing methods to interact with the data.
+
+✅Implementation in the Project:
+Private Access Modifiers: In the Book and Library classes, attributes such as bookName, bookAuthor, bookPrice, libraryName, libraryAddress, and libraryPincode are declared as private. This means that they cannot be accessed directly from outside the class.
+Getter and Setter Methods:
+
+Getter methods (e.g., getBookName, getLibraryName) are provided to retrieve the values of the private attributes.
+Setter methods (e.g., setBookName, setLibraryName) are provided to modify the values of the private attributes.
+
+✅Controlled Access:
+
+By using private access modifiers and providing getter and setter methods, access to the internal state of Book and Library objects is controlled. This prevents direct modification of the attributes and ensures that they are accessed and modified only through specified methods.
+✅Benefits of Encapsulation:
+1.Data Hiding:
+Encapsulation hides the internal details of a class, preventing direct access to its attributes and implementation details.
+2.Modularity:
+Encapsulation promotes modularity by encapsulating related data and behavior within a single unit, making the code more organized and easier to understand.
+3.Security:
+Encapsulation enhances security by controlling access to sensitive data, reducing the risk of unintended modification or corruption.
+4.Flexibility:
+Encapsulation allows for changes to the internal implementation of a class without affecting the code that uses it, providing flexibility and facilitating future updates.
+
+✅Usage in the Project:
+By adhering to the principles of encapsulation, the Book and Library classes ensure that access to their internal state is controlled and managed effectively. This promotes code integrity, maintainability, and reusability within the Library Management System project.
+
+✅Error Handling
+The system incorporates error handling to gracefully manage unexpected situations, such as invalid user input or missing data. 
+This ensures a smooth user experience and prevents the program from crashing.
+
+✅Input Validation
+To ensure the integrity of the data stored in the system, input validation is implemented to verify that user input is of the expected type and within acceptable ranges.
+
+✅How to Use
+1.Clone the repository to your local machine.
+2.Compile the Java files using a Java compiler.
+3.Run the main class (View.java) to start the Library Management System.
+4.Follow the on-screen instructions to perform various operations on the library's collection of books.
+
+✅Contributions :
+Contributions to the project are welcome! If you have any suggestions for improvements or would like to report a bug, please open an issue or submit a pull request.
