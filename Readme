@@ -5,6 +5,35 @@ Welcome to the Library Management System! This project aims to provide a simple 
 With this system, librarians can perform various tasks such as adding, removing, updating, and searching for books in the library. 
 Additionally, the system allows for the storage of information about the library itself, including its name, address, and pin code.
 
+⭐Package : model, view, controller
+⭐Class : Book, Library, Controller, View
+⭐Method : 
+1.View --> Main() 
+2.Book -->
+        i.getBookName()
+        ii.setBookName(String bookName)
+        iii.getBookAuthor()
+        iv.setBookAuthor(String bookAuthor)
+        v.getBookPrice()
+        vi.setBookPrice(double bookPrice)
+3.Library -->
+    i.getLibraryName()
+    ii.setLibraryName(String libraryName)
+    ii.getLibraryAddress()
+    iv.setLibraryAddress(String libraryAddress)
+    v.getLibraryPincode()
+    vi.setLibraryPincode(int libraryPincode)
+    vii.getBooks() 
+    viii.setBooks(List<Book> books)
+4.Controller -->
+    i.addBook(Book book)
+    ii.removeBook(String bookName)
+    iii.updateBook(String bookToUpdate, String newBookName, String newAuthor, double newPrice)
+    iv.updateBook(String bookToUpdate, String newAuthor, double newPrice)
+    v.updateBook(String bookToUpdate, String newAuthor)
+    vi.updateBook(String bookToUpdate, double newPrice)
+    vii.getBook(String bookName) 
+
 ✅Features
 1.Add Book: Librarians can add new books to the library by providing details such as the book's title, author name, and price.
 2.Remove Book: Books can be removed from the library by specifying the book's name.
