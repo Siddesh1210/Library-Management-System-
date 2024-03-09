@@ -17,6 +17,8 @@ __1.Model__: Contains classes representing the data entities used in the system,
 __2.View__: Handles user input and displays information to the user through the console interface.
 __3.Controller__: Acts as an intermediary between the view and the model, handling user requests and updating the model accordingly.
 
+![alt text](mvc-2.png)
+
 __✅Encapsulation in Book and Library Classes:__
 Encapsulation is a key principle in object-oriented programming that involves bundling the data (attributes) and methods (functions) that operate on the data within a class. 
 It ensures controlled access to the class's attributes by restricting direct access and providing methods to interact with the data.
