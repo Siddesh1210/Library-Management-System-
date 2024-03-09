@@ -46,7 +46,6 @@ __1.Clone the repository to your local machine using command :__
     git clone https://github.com/Siddesh1210/Library-Management-System-.git
 
 2.Open the folder in any Code Editor but careful Java JDK must be installed in system.
-
 __3.Compile the Java files using a Java compiler by command :__
     javac view.java
 
@@ -56,15 +55,7 @@ __4.Run the main class (View.java) to start the Library Management System__
 __5.Follow the on-screen instructions to perform various operations on the library's collection of books__
 
 __ScreenShot for Guidance :__
-![alt text](<Screenshot 2024-03-09 160420.png>)
-
-![alt text](<Screenshot 2024-03-09 160439.png>)
-
-![alt text](<Screenshot 2024-03-09 160533.png>)
-
-![alt text](<Screenshot 2024-03-09 160557.png>) ![alt text](<Screenshot 2024-03-09 160533-1.png>)
-
-![alt text](<Screenshot 2024-03-09 160612.png>) ![alt text](<Screenshot 2024-03-09 160533-2.png>) ![alt text](<Screenshot 2024-03-09 160557-1.png>)
 
 __✅Contributions :__
 Contributions to the project are welcome! If you have any suggestions for improvements or would like to report a bug, please open an issue or submit a pull request.
+
